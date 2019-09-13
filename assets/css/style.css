@@ -1,9 +1,12 @@
 body {
     background-image: url(greenDust.png);
 }
+#mainContainer{
+    margin-top: 20px;   
+}
 
 .container {
-    background-color: white;    
+    background-color: white; 
 }
 #jumbo {
     background-color: green;

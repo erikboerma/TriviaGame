@@ -78,7 +78,7 @@ function displayResults() {
     <p>Correct answers: ${score}</p>
     <p>Incorrect answers: ${lost}</p>
     <p>Total questions: ${quizQuestions.length}</p>
-    <button class="btn btn-primary" id="reset">Reset Game</button>
+    <button class="btn btn-danger" id="reset">Reset Game</button>
     `;
     $('#timer').remove();
 
