@@ -3,5 +3,29 @@ body {
 }
 
 .container {
-    background-color: white;
+    background-color: white;    
+}
+#jumbo {
+    background-color: green;
+}
+h1 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 60px;
+    align-content: center;
+}
+
+h4 {
+    font-size: 25px;
+    font-family: 'Chilanka', cursive;
+}
+
+#timer {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 20px;
+}
+
+.choice {
+    font-family: Papyrus, fantasy;
+    border: 1px solid green;
+    border-radius: 3px; 
 }

@@ -5,8 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- bootstrap  -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- google fonts  -->
+    <link href="https://fonts.googleapis.com/css?family=Chilanka|Indie+Flower|Orbitron&display=swap" rel="stylesheet">
+    <!-- local css -->
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Trivia Game</title>
 </head>
@@ -14,32 +18,27 @@
 <body>
     <div class="container border">
         <div class="row-md-12 justify-content-center">
-            <div class="jumbotron border">
-                <h1 class="display-4 border">Trivia Game</h1>
+            <div class="jumbotron" id="jumbo">
+                <h1 class="display-4">Philadelphia Sports Trivia Game!</h1>
+                <div class="row justify-content-center">
+                    <button type="button" class="btn btn-primary" id="startButton">Start the game</button>
+                </div>
             </div>
         </div>
-        <div class="row justify-content-center">
-            <button type="button" class="btn btn-primary">Start the game</button>
-        </div>
-        <div class="container border">
-            <div class="row justify-content-center" id="question">
-                Question
-            </div>
-            <div class="row justify-content-center theAnswers" id="answer1">
-                Row 1 answer
-            </div>
-            <div class="row justify-content-center theAnswers" id="answer2">
-                Row 2 answer
-            </div>
-            <div class="row justify-content-center theAnswers" id="answer3">
-                Row 3 answer
-            </div>
-            <div class="row justify-content-center theAnswers" id="answer4">
-                Row 4 answer
-            </div>
-        </div>
+        <div id="timer"></div>
+        <br>
+        <div id="game"></div>
+
+
         <!-- container end -->
     </div>
+    <!-- jQuery link  -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <!-- questions page link-->
+    <script src="assets/javascript/questons.js"></script>
+    <!-- javascript page link  -->
+    <script src="assets/javascript/app.js"></script>
 </body>
 
 </html>
