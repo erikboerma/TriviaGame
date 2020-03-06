@@ -1,5 +1,8 @@
 body {
     background-image: url(greenDust.png);
+    display: flex;
+    align-content: center;
+    justify-content: center;
 }
 /* #mainContainer{
     margin-top: 20px;   
@@ -8,13 +11,16 @@ body {
 .container {
     /* background-color: white;  */
     background-color: green;
+    width: 75%;
+    border: 5px solid white;
+    border-radius: 5px;
 }
+
 #jumbo {
 }
 h1 {
     font-family: 'Indie Flower', cursive;
     font-size: 60px;
-    align-content: center;
 }
 
 h4 {
