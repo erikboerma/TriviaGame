@@ -33,7 +33,7 @@ function countDown() {
 
 
 function loadQuestion() {
-    counter = 30;
+    counter = 10000;
     timer = setInterval(countDown, 1000);
     
     const question = quizQuestions[currentQuestion].question;
