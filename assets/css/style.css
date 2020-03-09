@@ -53,3 +53,7 @@ li {
     height: 100px;
 }
 
+.summary {
+    font-size: 25px;
+    font-family: 'Chilanka', cursive;
+}

@@ -75,9 +75,9 @@ $(document).on('click','.choice', function(){
 
 function displayResults() {
     var result = `
-    <p>Correct answers: ${score}</p>
-    <p>Incorrect answers: ${lost}</p>
-    <p>Total questions: ${quizQuestions.length}</p>
+    <p class="summary">Correct answers: ${score}</p>
+    <p class="summary">Incorrect answers: ${lost}</p>
+    <p class="summary">Total questions: ${quizQuestions.length}</p>
     <button class="btn btn-danger" id="reset">Reset Game</button>
     `;
     $('#timer').remove();
