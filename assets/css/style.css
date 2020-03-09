@@ -37,6 +37,8 @@ h4 {
     border: 3px solid black;
     border-radius: 5px; 
     align-content: center;
+    width: 300px;
+    display: inline-block;
 }
 
 .choice:hover {
